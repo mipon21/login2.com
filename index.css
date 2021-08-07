@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+marquee {
+    width: 100%;
+    line-height: 2px;
+    border: none ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    word-spacing: 5px;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+/*Navigation Bar er jonne card/JEKONO*/
+.card-nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1px;
+}
+/*Navigation Bar er list gulo ba likhagulu boshanur jonne/JEKONO*/
+nav ul {
+   display: flex;
+   list-style-type: none;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 20px;
+}
+/*Nav er logo image ta*/
+nav img {
+    height: 60px;
+    width: 120px;
+    border-radius: 400px;
+}
+
+/*Home theke Link porjonto button gulur jonne*/
+.nav-button a {
+    background: transparent;
+    color: #000000;
+    border: 3px solid #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*Home theke Link porjonto button gulur jonne unspecial with hover effect only color*/
+.nav-button a:hover{
+    background: transparent;
+    border: transparent;
+    color: #db1c1c;
+}
+.nav-button-n a {
+    background: transparent;
+    color: #000000;
+    border: 3px solid #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*Home theke Link porjonto button gulur jonne unspecial with hover effect only color*/
+.nav-button-n a:hover{
+    background: transparent;
+    border: transparent;
+    color: #db1c1c;
+}
+/*eta sing in ar hire button er jonne*/
+
+.nav-button-hire a {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #db1c1c;
+    background-color: #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*eta sing in ar hire button er jonne eta special with hover effect*/
+.nav-button-hire a:hover {
+    background: transparent;
+    color: #db1c1c;
+    border: 3px solid #db1c1c;
+    transition: all 0.2s ease
+}
+div {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    display: flexbox;
+    align-items: center;
+    box-shadow: 0px 0px 5px red;
+    border-radius: 50px;
+    justify-content: space-around;
+}
+div input{
+    
+    width: 400px;
+    height: 60px;
+    
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+}
+body {
+    background: url('data:image/jpeg;base64,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');
+    background-size: 1300px;
+    
+}
+ul li a {
+   
+    margin-top: 20px;  
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #db1c1c;
+    background-color: #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li a:hover {
+    background: transparent;
+    color: #db1c1c;
+    border: 3px solid #db1c1c;
+    transition: all 0.2s ease
+}
+h1 {
+    color: white;
+    text-shadow: 0px 0px 0.5px rgb(238, 230, 230);
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+p {
+    margin-top: 10px;
+}
+.img {
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+@media screen and (max-width: 720px) {
+    * {
+        margin: 0;
+        padding: 0;
+        margin-left: 1px;
+        margin-right: 1px;
+        box-sizing: border-box;
+        
+    }
+    .nav-button-n {
+        display: none;
+    }
+    .nav-button {
+        display: none;
+    }
+    nav img {
+        width: 100px;
+        
+    }
+    nav ul li a {
+        font-size: 10px;
+    }
+    div {
+        width: 350px; 
+        border-radius: 20px; 
+    }
+    div input {
+        margin-top: 5px;
+        width: 340px;
+        padding-left: 1px;
+        border-radius: 4px;
+    }
+    .img {
+        margin-top: -7px;
+    }
+}
